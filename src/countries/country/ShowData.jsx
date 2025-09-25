@@ -22,7 +22,7 @@ const ShowData = ({ info, visitedHandle }) => {
                     <p>Country region: {info.region.region} </p>
                     <p>Country continents: {info.continents.continents} </p>
                     <p>Country code: {info.ccn3.ccn3} </p>
-                    <p>Country population: {info.population.population} </p>
+                    {/* <p>Country population: {info.population.population} </p> */}
                     <p>Country area: {info.area.area} {info.area.area > 120000 && ' This is a big country' || " This is a small country"} </p>
                     <button onClick={handleButton}>
                         {visited ? 'Visited' : 'Not visited'}
